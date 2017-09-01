@@ -25,6 +25,10 @@ void sun()
 {
   ellipse(200,y,30,30);
   y=y-1;
+   while (y<=0)
+  {
+    ellipse(200,y,30,30);
+  }
 }
 
 
